@@ -1,5 +1,27 @@
 :root {
 	--PC: "#ED1E27";
-
 	--SC: "#ffc107";
+}
+
+.icon-box i {
+	font-size: 3rem;
+	color: #dc3545;
+}
+.section-title {
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.lead-lg {
+	font-size: 1.25rem;
+}
+
+.contact-header {
+	background: linear-gradient(to right, #dc3545, #6c757d);
+	color: white;
+	padding: 60px 0;
+}
+.form-control,
+.form-control:focus {
+	box-shadow: none;
+	border-color: #ced4da;
 }
