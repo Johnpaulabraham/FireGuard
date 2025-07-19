@@ -14,10 +14,11 @@
 		<title>FireGuard | Saving Lifes and Properties</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg bg-dark">
+		<!-- Navigation/Header section -->
+		<nav class="navbar navbar-expand-lg bg-white">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#"
-					><img src="./img/FireGuard Logo.png" alt="FireGuard Logo" width="200"
+				<a class="navbar-brand" href="./index.html"
+					><img src="./img/FireGuard Logo.png" alt="FireGuard Logo" width="190"
 				/></a>
 				<button
 					class="navbar-toggler"
@@ -34,24 +35,20 @@
 					<ul class="navbar-nav ms-auto text-white">
 						<li class="nav-item">
 							<a
-								class="nav-link active text-white fs-5"
+								class="nav-link active fs-5"
 								aria-current="page"
 								href="./index.html"
 								>Home</a
 							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white fs-5" href="./Pages/About.html"
-								>About us</a
-							>
+							<a class="nav-link fs-5" href="./Pages/About.html">About us</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white fs-5" href="./Pages/Services.html"
-								>Services</a
-							>
+							<a class="nav-link fs-5" href="./Pages/Services.html">Services</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white fs-5" href="./Pages/Contact.html"
+							<a class="nav-link fs-5" href="./Pages/Contact.html"
 								>Contact us</a
 							>
 						</li>
@@ -60,7 +57,8 @@
 			</div>
 		</nav>
 
-		<section>
+		<!-- Hero section -->
+		<section id="hero">
 			<div id="carouselExampleDark" class="carousel carousel-dark slide">
 				<div class="carousel-indicators">
 					<button
@@ -86,10 +84,17 @@
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active" data-bs-interval="10000">
-						<img src="./img/GPS.jpg" class="d-block w-100" alt="GPS Tracking" />
+						<img
+							src="./img/fire-fighters-bg.jpg"
+							class="d-block w-100"
+							alt="GPS Tracking"
+						/>
+
 						<div class="carousel-caption d-none d-md-block">
-							<h3 class="text-white">Protect What Matters with Firelert.</h3>
-							<p>Faster Alerts. Smarter Response.</p>
+							<h3 class="text-white fs-1">Ready for Emergencies</h3>
+							<p class="fs-4 text-white">
+								We standby to respond to fire emergences.
+							</p>
 						</div>
 					</div>
 					<div class="carousel-item" data-bs-interval="2000">
@@ -99,19 +104,21 @@
 							alt="Firemen"
 						/>
 						<div class="carousel-caption d-none d-md-block">
-							<h3 class="text-white">We are Firefighters</h3>
-							<p>We stand ready to protect you and your property from fire.</p>
+							<h3 class="text-white fs-1">We are Firefighters</h3>
+							<p class="fs-4 text-white">We protect lifes & property.</p>
 						</div>
 					</div>
 					<div class="carousel-item">
 						<img
-							src="./img/fire-fighters-bg.jpg"
+							src="./img/GPS.jpg"
 							class="d-block w-100"
 							alt="Firefighter Standing by"
 						/>
 						<div class="carousel-caption d-none d-md-block">
-							<h3 class="text-white">Ready for Emergencies</h3>
-							<p>We standby to respond to fire emergences.</p>
+							<h3 class="text-white fs-1 text-danger">
+								Protect What Matters with FireGuard.
+							</h3>
+							<p class="fs-4 text-white">Faster Alerts. Smarter Response.</p>
 						</div>
 					</div>
 				</div>
@@ -136,6 +143,186 @@
 			</div>
 		</section>
 
+		<!-- Feature section -->
+		<section id="feature">
+			<h2 class="text-black fs-2 text-center p-4" style="color: var(--MC)">
+				Features
+			</h2>
+			<div class="container">
+				<div class="row row-cols-1 row-cols-md-2 g-4">
+					<div class="col">
+						<div class="card">
+							<img
+								src="./img/Fire alarm.jpg"
+								class="card-img-top"
+								alt="Real-Time Fire Alerts"
+							/>
+							<div class="card-body">
+								<h4 class="card-title">Real-Time Fire Alerts</h4>
+								<p class="card-text">
+									Receive immediate fire notifications the moment danger is
+									detected. Fireguard uses advanced location tracking and hazard
+									detection algorithms to alert users of fire outbreaks near
+									them, ensuring you and your loved ones have enough time to
+									evacuate or take preventive measures.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card">
+							<img
+								src="./img/smart sensor.jpg"
+								class="card-img-top"
+								alt="Smart Sensor Integration"
+							/>
+							<div class="card-body">
+								<h4 class="card-title">Smart Sensor Integration</h4>
+								<p class="card-text">
+									Fireguard seamlessly integrates with modern IoT devices such
+									as smoke detectors, temperature sensors, and fire alarms. When
+									a connected sensor is triggered, Fireguard processes the data
+									and instantly communicates with emergency services. This
+									allows for faster response times and automates fire safety in
+									homes, offices, or large buildings.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+					<br />
+				<div class="row row-cols-1 row-cols-md-2 g-4">
+					<div class="col">
+						<div class="card">
+							<img
+								src="./img/User Tracking.jpg" class="card-img-top" alt="User Location Tracking"/>
+							<div class="card-body">
+								<h5 class="card-title">User Location Tracking</h5>
+								<p class="card-text">
+									Fireguard enables you to track your real-time location and
+									share it securely with loved ones, team members, or rescue
+									teams during a fire emergency. This ensures that help can
+									reach you quickly and that your whereabouts are always known
+									during critical moments. You can even assign trusted
+									emergency contacts to receive automatic location updates.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card">
+							<img
+								src="./img/247 support.jpg"
+								class="card-img-top"
+								alt="24/7 Monitoring & Support"
+							/>
+							<div class="card-body">
+								<h5 class="card-title">24/7 Monitoring & Support</h5>
+								<p class="card-text">
+										Fireguard offers round-the-clock monitoring services backed
+										by AI systems and human support. Our platform ensures that
+										fire-related activity is always being tracked and that you
+										can access help whenever you need it. Whether it's 2 AM or
+										during a holiday, you’ll never be alone in a crisis.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br />
+				<!--3rd feature row -->
+				<div class="row row-cols-1 row-cols-md-2 g-4">
+					<div class="col">
+						<div class="card">
+							<img
+									src="./img/offline mode.jpg"
+									class="card-img-top"
+									alt="Offline Safety Mode"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Offline Safety Mode</h5>
+									<p class="card-text">
+										We understand that not all emergencies happen with stable
+										internet access. That’s why Fireguard is equipped with an
+										offline mode that stores essential fire safety guides,
+										preloaded maps, and quick emergency instructions. In moments
+										of poor network reception, you’ll still have access to
+										life-saving information and protocols to guide you through
+										fire emergencies.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+								<img
+									src="./img/incident reporting.jpg"
+									class="card-img-top"
+									alt="Incident Reporting"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Incident Reporting</h5>
+									<p class="card-text">
+										Be a community hero by reporting fire outbreaks quickly
+										through our easy-to-use interface. Users can upload photos,
+										record videos, tag locations, and share eyewitness accounts
+										that are reviewed and forwarded to appropriate authorities.
+										This crowdsourced system helps build a network of active
+										safety observers, making fire prevention a shared
+										responsibility.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--  Testimonials Section -->
+		  <section id="testimonials" class="my-4">
+			<h2 class="text-black fs-2 text-center p-4" style="color: var(--MC)">
+				Testimonials
+			</h2>
+			<div class="container">
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+  					<div class="col text-center">
+    					<div class="card h-100">
+      						<img src="./img/2.png" class="card-img-top" alt="Johnpaul Abraham" />
+      						<div class="card-body">
+								<p class="card-text">Fireguard gave us the few extra minutes we needed to act before the fire got out of hand. The real-time alert system is a game-changer for home safety</p>
+								<h6 class="card-title">CEO Johnpaul Abraham</h6>
+
+      						</div>
+    					</div>
+  					</div>
+
+					<!-- testimony 2 -->
+					 <div class="col text-center">
+    					<div class="card h-100">
+      						<img src="./img/ghg.png" class="card-img-top text-center" alt="Deborah Alabi" />
+      						<div class="card-body">
+        						
+								<p class="card-text">We installed Fireguard in our office complex and saw an immediate improvement in how we manage fire safety. The interactive fire map and sensor integration gave us more control than ever.</p>
+								<h6 class="card-title">Deborah Alabi</h6>
+      						</div>
+    					</div>
+  					</div>
+
+					<!-- Testimony 3 -->
+					 <div class="col text-center">
+    					<div class="card h-100">
+      						<img src="./img/1.png" class="card-img-top" alt="Esther Jonathan" />
+      						<div class="card-body">
+								<p class="card-text">“The ability to report an incident with just a few taps and share my exact location made all the difference. Fireguard doesn’t just warn — it connects you to help fast.”</p>
+								<h6 class="card-title">Esther Jonathan</h6>
+
+      						</div>
+    					</div>
+  					</div>
+				</div>
+			</div>
+		  </section>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
